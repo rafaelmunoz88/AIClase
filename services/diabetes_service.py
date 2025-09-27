@@ -23,6 +23,6 @@ def diabetes_prediction(data: PatientData):
     ]).reshape(1,8)
 
     prediction = model.predict(xin)
-    print("prediction ", prediction)
+    print("prediccion ", prediction)
     return labels[prediction[0]]
 
